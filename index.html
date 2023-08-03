@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Macro.Ki</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<body>
+    <img class="image" src="imagens/IMG_7885.jpg" alt="Imagem de fundo">
+    <section id="header">
+        <!-- Cabeçalho do website -->
+        <a href="#"><img src="imagens/Logo.png" alt="logo" class="logo"></a>
+        <div>
+            <!-- Menu de navegação -->
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Ínicio</a></li>
+                <li>
+                    <a href="#">Sobre</a>
+                    <ul class="submenu">
+                        <li><a href="SobreMim.html">Sobre Mim</a></li>
+                        <li><a href="SobreMacrobiotica.html">Macrobiótica</a></li>
+                    </ul>
+                </li>
+                <li><a href="Menus.html">Menus</a></li>
+                <li><a href="Contactos.html">Contactos</a></li>
+            </ul>
+        </div>
+    </section>
+    <main>
+    <!-- Conteúdo principal da página -->
+    <div class="carousel">
+        <div class="carousel-container">
+          <img src="imagens/IMG_7831_INDEX(1).jpg" alt="Imagem 1">
+          <img src="imagens/IMG_7807_INDEX(2).jpg" alt="Imagem 2">
+          <img src="imagens/IMG_7844_INDEX(3).jpg" alt="Imagem 3">
+          <img src="imagens/IMG_7885_INDEX(4).jpg" alt="Imagem 4">
+          <img src="imagens/IMG_7706_INDEX(5).jpg" alt="Imagem 5">
+        </div>
+        <button class="prev-button">&#10094;</button>
+        <button class="next-button">&#10095;</button>
+    </div>
+    <div class="apontamento">
+        <p style="font-style:italic">"A macrobiótica é um caminho para alcançar a saúde e o equilíbrio, permitindo-nos viver em harmonia com a natureza e com nós mesmos."</p>
+        <p> Michio Kushi </p>
+    </div>
+    <section id="menus">
+        <br>
+        <h1>Menus</h1>
+        <div class="container">
+            <div style="background-image: url(imagens/IMG_7885.jpg); background-size: 140%; opacity: 85%;" class="rectangle">
+            <h3 style="color:#f3f1ec">Estufado de Tempeh</h3>
+            </div>
+            <div style="background-image: url(imagens/IMG_7831.jpg); background-size: 140%; opacity: 85%;" class="rectangle">
+            <h3 style="color:#f3f1ec">Gyosas de Legumes</h3>
+            </div>
+            <div style="background-image: url(imagens/IMG_8074.jpg); background-size: 140%; opacity: 85%;" class="rectangle">
+            <h3 style="color:#f3f1ec">Burguer de Grão de Bico e Polenta</h3>
+            </div>
+        </div>
+    </section>
+    <div class="video-container">
+        <video id="video" autoplay loop controls>
+            <source src="video/video_comida.mp4" type="video/mp4">
+        </video>
+    </div>
+    </main>
+    <footer>
+        <!-- Rodapé do website -->
+        <section class="foot">
+            <p>
+                <a href="https://www.instagram.com/macro.ki/" target="_blank" class="icon-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <br>@macro.ki
+            </p>
+            <br>
+            <div id="data-hora"></div>
+            <br>
+            <div class="copyright">
+                <p style="font-size:14px">&copy; 2023, José Amado - Macro.Ki</p>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
